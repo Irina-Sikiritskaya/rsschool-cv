@@ -38,7 +38,6 @@ I have been working as QA Engineer for one and half year.
 ***
 ## Education
 * **University:** Belarusian State Economic University, economics and informatics (graduation - 2022)
-***
 * **Courses:**
     + Function Testing Labaratory
     + Javascript for Software Testing Engineers

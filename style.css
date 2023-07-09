@@ -1,0 +1,161 @@
+.page{
+  font-family: 'Roboto', sans-serif;
+}
+
+a {
+  color: black;
+}
+
+p {
+  font-size: 20px;
+  color: black;
+  line-height: 30px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.cv{
+  max-width: 1600px;
+  margin: 0 auto;
+}
+
+.main {
+  display: flex;
+}
+
+.header{
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 20px;
+  justify-content: space-around;
+  line-height: 2;
+  background-color: #a9bdc4;
+}
+
+.nav{
+margin-right: 50px;
+}
+
+.left_side{
+  width: 25%;
+  height: 100%;
+  color: white;
+  background-color: #293448;
+}
+
+.right_side{
+  width: 75%;
+  height: 100%;
+}
+
+.left_title{
+  font-size: 30px;
+  padding-left: 20px;
+  text-decoration: underline;
+}
+
+.right_title {
+  font-size: 30px;
+  padding-left: 40px;
+  text-decoration: underline;
+}
+
+.figure{
+  display: flex;
+  margin-top: 0;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.photo{
+  height: 390px;
+  width: 400px;
+}
+
+.text {
+  margin-left: 20px;
+  width: 90%
+}
+
+.left_p{
+  padding-left: 20px;
+  color:white;
+}
+
+#Name{
+  margin-top: 70px;
+  margin-left: 40px;
+  font-size: 50px;
+  line-height:0;
+  font-weight: 700;
+}
+
+#Job{
+  margin-bottom: 80px;
+  margin-left: 40px;
+  font-size: 25px;
+}
+
+.contact_list{
+  margin-bottom: 10px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.skills_list{
+  margin-bottom: 20px;
+  list-style: none;
+  font-size: 20px;
+}
+
+.education_list{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  font-size: 20px;
+}
+
+.code{
+  width: max-content;
+  margin-left: 20px;
+}
+
+.footer{
+  display: flex;
+  margin: 0 auto;
+  justify-content: center;
+  background-color: #a9bdc4;
+}
+
+.footer_year{
+  justify-self: center;
+  padding-right: 20px;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.footer_git{
+  justify-self: center;
+  padding-top: 25px;
+  padding-right: 20px;
+  font-size: 30px;
+}
+
+.footer_rs{
+  padding-top: 20px;
+  justify-self: center;
+  font-size: 30px;
+}
+
+#rs_logo{
+  height: 50px;
+  width: 80px;
+}

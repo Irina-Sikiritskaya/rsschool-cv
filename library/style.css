@@ -6,7 +6,7 @@
 main{
     margin-top:90px;
 }
-
+/* Header styles start */
 .header{
     position: fixed;
     height: 90px;
@@ -81,6 +81,9 @@ main{
     height: 28px;
     flex-shrink: 0;
 }
+/* Header styles end */
+
+/* Welcome styles start */
 .welcome{
     position: relative;
 }
@@ -118,12 +121,21 @@ main{
     text-transform: uppercase;
 }
 
+/* Welcome styles end */
+
+/* About styles start */
+.about{
+    position: relative;
+    margin: 0 auto;
+    height: 837px;
+}
+
 .title{
     position: absolute;
     margin-top: 20px;
-    margin-left: 667px;
     width: 100%;
-    align-items: center;
+    display: flex;
+    justify-content: center;
     color: #0C0C0E;
     font-family: Forum;
     font-size: 40px;
@@ -131,17 +143,13 @@ main{
     font-weight: 400;
     line-height: 40px;
     letter-spacing: 2px;
-    text-transform: capitalize; 
-}
-
-.about{
-    position: relative;
-    margin: 0 auto;
+    text-transform: capitalize;
 }
 
 .line{
     position: absolute;
     top: 80px;
+    /* bottom: 40px; */
     margin-left: 695px;
     background-color: black;
     width: 50px;
@@ -160,4 +168,59 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */ 
+    margin-top: 0;
+}
+.about_container{
+    position: absolute;
+    top: 181px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* margin-top: 20px; */
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.about_photo{
+    width: 450px;
+    height: 560px;
+    flex-shrink: 0;
+    margin-right: 25px;
+}
+
+.about_photo:last-child{
+    margin-right: 0;
+}
+
+.pagination{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    margin-left: 686px;
+    margin-top: 40px;
+    bottom: 40px;
+}
+/* About styles end */
+
+/* Favorites styles start */
+.favorites{
+    position: relative;
+    margin: 0 auto;
+    height: 1439px;
+}
+
+.paragraph{
+    position: absolute;
+    top: 121px;
+    width: 100%;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */ 
+}
+
+.paragraph.p_favorites{
+    font-weight: bold;
+    margin-left: 20px;
 }

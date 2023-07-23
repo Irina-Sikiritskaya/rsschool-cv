@@ -157,19 +157,23 @@ main{
     flex-shrink: 0;
 }
 
-.about_paragraph{
+.paragraph{
     position: absolute;
     top: 121px;
     width: 100%;
     color: #000;
-    text-align: center;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
     line-height: 40px; /* 200% */ 
+}
+
+.paragraph.p_about{
+    text-align: center;
     margin-top: 0;
 }
+
 .about_container{
     position: absolute;
     top: 181px;
@@ -180,6 +184,7 @@ main{
     margin-left: 20px;
     margin-right: 20px;
 }
+
 .about_photo{
     width: 450px;
     height: 560px;
@@ -208,19 +213,132 @@ main{
     height: 1439px;
 }
 
-.paragraph{
+.paragraph.p_favorites{
+    font-weight: bold;
+    margin-left: 20px;
+}
+
+.radio{
     position: absolute;
-    top: 121px;
-    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    justify-content: space-between;
+    top: 185px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.time_radio{
+    margin-right: 90px;
     color: #000;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
-    line-height: 40px; /* 200% */ 
+    line-height: normal;
 }
 
-.paragraph.p_favorites{
-    font-weight: bold;
+.bd_container{
+    position: absolute;
+    top: 249px;
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+}
+
+.bd-description{
+    position: relative;
+    margin-top: 40px;
+    width: 550px;
+    height: 555px;
+    flex-shrink: 0;
+    border: 1px solid #000;
+    background: #FFF;
+    z-index: 0;
+    margin-bottom: 40px;
+}
+
+.bd-description.odd{
     margin-left: 20px;
+    margin-right: 260px;
+}
+
+.bd-description.even{
+    margin-right: 40px;
+}
+
+.card_header{
+    position: absolute;
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 15px;
+}
+
+.book_line{
+    position: absolute;
+    width: 60px;
+    height: 1px;
+    background: #BB945F;
+    margin-left: 20px;
+    margin-top: 55px;
+}
+
+.book_name{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    margin-top: 75px;
+}
+
+.book_name::first-line{
+    text-transform: uppercase;
+}
+
+.card_text{
+    color: #000;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 266.667% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-left: 20px;
+    width: 355px;
+}
+
+.book_photo{
+    position: absolute;
+    bottom: 0;
+    width: 200px;
+    height: 300px;
+    flex-shrink: 0;
+    margin-left: 390px;
+    z-index: 1;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat; 
+}
+
+.buy_button{
+    position: absolute;
+    width: 75px;
+    height: 30px;
+    flex-shrink: 0;
+    border-radius: 2px;
+    border: 1px solid #0C0C0E;
+    margin-left: 20px;
+    bottom: 15px;
 }

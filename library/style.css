@@ -133,6 +133,7 @@ main{
 .title{
     position: absolute;
     margin-top: 20px;
+    margin-bottom: 20px;
     width: 100%;
     display: flex;
     justify-content: center;
@@ -149,7 +150,7 @@ main{
 .line{
     position: absolute;
     top: 80px;
-    /* bottom: 40px; */
+    bottom: 40px;
     margin-left: 695px;
     background-color: black;
     width: 50px;
@@ -214,8 +215,10 @@ main{
 }
 
 .paragraph.p_favorites{
+    position: absolute;
     font-weight: bold;
     margin-left: 20px;
+    margin-top: 0;
 }
 
 .radio{
@@ -226,7 +229,7 @@ main{
     justify-content: space-between;
     top: 185px;
     margin-left: 20px;
-    margin-top: 40px;
+    margin-bottom: 42px;
 }
 
 .time_radio{
@@ -249,14 +252,14 @@ main{
 
 .bd-description{
     position: relative;
-    margin-top: 40px;
+    /* margin-top: 40px; */
     width: 550px;
     height: 555px;
     flex-shrink: 0;
     border: 1px solid #000;
     background: #FFF;
     z-index: 0;
-    margin-bottom: 40px;
+    /* margin-bottom: 40px; */
 }
 
 .bd-description.odd{
@@ -266,6 +269,14 @@ main{
 
 .bd-description.even{
     margin-right: 40px;
+}
+
+.bd-description.first-second{
+    margin-bottom: 40px;
+}
+
+.bd-description.third-fourd{
+    margin-top: 40px;
 }
 
 .card_header{
@@ -342,3 +353,109 @@ main{
     margin-left: 20px;
     bottom: 15px;
 }
+/* Favorites styles end */
+
+/* Coffee shop styles start */
+.favorites{
+    position: relative;
+    margin: 0 auto;
+    height: 1439px;
+}
+.coffee_shop{
+    position: relative;
+    margin: 0 auto;
+    height: 841px;
+}
+
+.p_coffee{
+    text-align: center;
+    letter-spacing: 2px;
+    margin-top: 0;
+}
+
+.menu_container{
+    position: absolute;
+    top: 281px;
+    height: 781px;
+    width: 100%;
+}
+
+.menu{
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    gap: 40px;
+    height: 520px;
+}
+
+.menu_header{
+    position: relative;
+    color: #BB945F;
+    font-family: Forum;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 100% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.menu.drinks{
+    position: relative;
+    margin-left: 20px;
+    align-items: flex-start;
+    margin-right: 480px;
+    width: 438px;
+}
+
+.menu.desserts{
+    margin-right: 0;
+    align-items: flex-end;
+    width: 482px;
+}
+
+.menu_item{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 60px;
+    height: 40px;
+    width: 438px;
+}
+
+.menu_text{
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    white-space: nowrap;
+}
+
+.menu_line{
+    position: absolute;
+    width: 100px;
+    height: 1px;
+    background: #BB945F;
+    left: 257px;
+}
+
+.menu_price{
+    color: #000;
+    font-family: Forum;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    margin-right: 0;
+}
+/* Coffee shop styles end */

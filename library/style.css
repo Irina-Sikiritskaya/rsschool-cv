@@ -4,7 +4,7 @@
   }
 
 main{
-    margin-top:90px;
+    margin-top: 90px;
 }
 /* Header styles start */
 .header{
@@ -696,4 +696,132 @@ main{
     flex-shrink: 0;
     border-radius: 2px;
     border: 1px solid #0C0C0E;
+}
+
+/* Library cards styles end */
+
+/* Footer styles start */
+.footer{
+    position: relative;
+    width: 1440px;
+    height: 250px;
+    background: #0C0C0E;
+    bottom: 0;
+}
+
+.frame1{
+    position: absolute;
+    margin: 20px;
+    display: flex;
+    width: 1400px;
+    height: 40px;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 1022px;
+    flex-shrink: 0;
+}
+
+.address{
+    position: absolute;
+    margin: 0;
+    left: 0;
+    width: 229px;
+    flex-shrink: 0;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.time{
+    position: absolute;
+    margin: 0;
+    right: 0;
+    color: #FFF;
+    text-align: right;
+    font-family: Inter;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 133.333% */
+}
+
+.frame2{
+    position: absolute;
+    display: flex;
+    margin: 20px;
+    top: 50px;
+    width: 1400px;
+    height: 40px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1147px;
+    flex-shrink: 0;
+}
+
+.icon{
+    width: 24px;
+    height: 24px;
+    flex-shrink: 0;
+    color: #F5EFDB;
+}
+
+.footer_line{
+    position: absolute;
+    margin-left: 20px;
+    top: 140px;
+    width: 1400px;
+    height: 1px;
+    background-color: #FFF;
+}
+
+.fotter_rss{
+    position: absolute;
+    margin: 20px;
+    top: 184px;
+    display: flex;
+    width: 1400px;
+    height: 22px;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 450px;
+}
+
+.year{
+    display: flex; 
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+}
+
+.rs_text{
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 100% */
+    letter-spacing: 2px;
+    flex-shrink: 0;
+}
+
+.username{
+    display: flex;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
 }

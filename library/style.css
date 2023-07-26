@@ -6,6 +6,11 @@
 main{
     margin-top: 90px;
 }
+
+.wrapper{
+    width: 1400px;
+    margin: 0 auto;
+}
 /* Header styles start */
 .header{
     position: fixed;
@@ -13,6 +18,7 @@ main{
     background: #0C0C0E;
     top: 0;
     width: 1440px;
+    z-index: 1;
 }
 
 .library_name{
@@ -34,8 +40,6 @@ main{
     align-items: center;
     justify-content: space-between;
     width: 100%;
-    /* padding-top: 20px; */
-    /* padding-bottom: 20px; */
 }
 
 .header_list{
@@ -52,6 +56,17 @@ main{
     height: 50px;
 }
 
+.menu_link{
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.menu_link:hover{
+    color: #BB945F;
+    text-decoration: underline;
+}
+
 .menu_items:first-child{
     margin-left: 0;
 }
@@ -61,7 +76,6 @@ main{
 
 .menu_items{
     display: inline-flex;
-    color:#FFF;
     font-family: Inter;
     font-size: 20px;
     font-style: normal;
@@ -126,7 +140,6 @@ main{
 /* About styles start */
 .about{
     position: relative;
-    margin: 0 auto;
     height: 837px;
 }
 
@@ -181,9 +194,6 @@ main{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    /* margin-top: 20px; */
-    margin-left: 20px;
-    margin-right: 20px;
 }
 
 .about_photo{
@@ -210,7 +220,6 @@ main{
 /* Favorites styles start */
 .favorites{
     position: relative;
-    margin: 0 auto;
     height: 1439px;
 }
 
@@ -264,11 +273,11 @@ main{
 
 .bd-description.odd{
     margin-left: 20px;
-    margin-right: 260px;
+    margin-right: 240px;
 }
 
 .bd-description.even{
-    margin-right: 40px;
+    margin-right: 60px;
 }
 
 .bd-description.first-second{
@@ -358,12 +367,10 @@ main{
 /* Coffee shop styles start */
 .favorites{
     position: relative;
-    margin: 0 auto;
     height: 1439px;
 }
 .coffee_shop{
     position: relative;
-    margin: 0 auto;
     height: 841px;
 }
 
@@ -404,9 +411,9 @@ main{
 
 .menu.drinks{
     position: relative;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     align-items: flex-start;
-    margin-right: 480px;
+    margin-right: 460px;
     width: 438px;
 }
 
@@ -486,7 +493,6 @@ main{
 /* Contacts styles start */
 .contacts{
     position: relative;
-    margin: 0 auto;
     height: 575px;
 }
 
@@ -495,7 +501,7 @@ main{
     top: 121px;
     width: 1400px;
     height: 414px;
-    margin: 20px;
+    /* margin: 20px; */
 }
 
 .paragraph.p_contacts{
@@ -543,14 +549,13 @@ main{
 /* Library cards styles start */
 .library_cards{
     position: relative;
-    margin: 0 auto;
     height: 614px;
 }
 
 .find_card{
     position: absolute;
     top: 121px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     display: flex;
     justify-content: flex-start;
     height: 453px;

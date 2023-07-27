@@ -738,6 +738,12 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 20px; /* 133.333% */
+    text-decoration: none;
+}
+
+.address:hover{
+    color: #BB945F;
+    text-decoration: underline;
 }
 
 .time{
@@ -791,7 +797,7 @@ main{
     height: 22px;
     align-items: center;
     justify-content: flex-start;
-    gap: 450px;
+    gap: 420px;
 }
 
 .year{
@@ -817,6 +823,27 @@ main{
     line-height: 20px; /* 100% */
     letter-spacing: 2px;
     flex-shrink: 0;
+    text-decoration: none;
+}
+
+a:hover{
+    color: #BB945F;
+    text-decoration: underline;
+}
+
+a{
+    text-decoration: none;
+}
+
+.icon_link{
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+}
+
+.icon_link:hover{
+    background-color: #BB945F;
+    text-decoration: none;
 }
 
 .username{
@@ -829,4 +856,5 @@ main{
     font-weight: 400;
     line-height: 40px; /* 200% */
     letter-spacing: 2px;
+    text-decoration: none;
 }

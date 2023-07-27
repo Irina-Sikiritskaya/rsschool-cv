@@ -30,13 +30,13 @@ main{
     color: #FFF;
     font-family: Forum;
     font-size: 30px;
-    /* width: 294px; */
+    max-width: 294px;
     font-style: normal;
     font-weight: 400;
     line-height: 50px; /* 166.667% */
     letter-spacing: 0.6px;
-    margin-right: 350px;
-    padding-left: 20px;
+    margin-right: 424px;
+    margin-left: 20px;
 }
 
 .header_menu{
@@ -169,7 +169,7 @@ main{
     position: absolute;
     top: 80px;
     bottom: 40px;
-    margin-left: 695px;
+    margin-left: 675px;
     background-color: black;
     width: 50px;
     height: 1px;
@@ -216,7 +216,7 @@ main{
     position: absolute;
     display: flex;
     justify-content: center;
-    margin-left: 686px;
+    margin-left: 666px;
     margin-top: 40px;
     bottom: 40px;
 }
@@ -231,7 +231,6 @@ main{
 .paragraph.p_favorites{
     position: absolute;
     font-weight: bold;
-    margin-left: 20px;
     margin-top: 0;
 }
 
@@ -242,7 +241,6 @@ main{
     align-items: flex-start;
     justify-content: space-between;
     top: 185px;
-    margin-left: 20px;
     margin-bottom: 42px;
 }
 
@@ -427,11 +425,12 @@ main{
     position: relative;
     /* margin-left: 20px; */
     align-items: flex-start;
-    margin-right: 460px;
+    margin-right: 471px;
     width: 438px;
 }
 
 .menu.desserts{
+    position: relative;
     margin-right: 0;
     align-items: flex-end;
     width: 482px;
@@ -521,15 +520,23 @@ main{
 .paragraph.p_contacts{
     position: relative;
     margin-top: 0;
-    bottom: 40px;
+    margin-bottom: 40px;
     top: 0;
     text-transform: capitalize;
     font-weight: bold;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize;
 }
 
 .phone{
     position: relative;
-    top: 40px;
+    margin-top: 20px;
     display: flex;
     color: #000;
     text-align: center;
@@ -544,8 +551,16 @@ main{
 
 .p_contacts_staff{
     position: relative;
-    top: 60px;
+    margin-top: 40px;
     font-weight: bold;
+    color: #000;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px; /* 200% */
+    letter-spacing: 2px;
+    text-transform: capitalize; 
 }
 
 .map{
@@ -644,7 +659,7 @@ main{
     font-style: normal;
     font-weight: 400;
     line-height: 50px; /* 166.667% */
-    letter-spacing: 0.6px; 
+    letter-spacing: 0.6px;
 }
 
 .input_field{
@@ -792,6 +807,7 @@ main{
     height: 24px;
     flex-shrink: 0;
     color: #F5EFDB;
+    margin-right: 10px;
 }
 
 .footer_line{
@@ -803,10 +819,10 @@ main{
     background-color: #FFF;
 }
 
-.fotter_rss{
+.footer_rss{
     position: absolute;
     margin: 20px;
-    top: 184px;
+    top: 164px;
     display: flex;
     width: 1400px;
     height: 22px;
